@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/mlist
+# catalog-date 2009-07-04 13:21:27 +0200
+# catalog-license lppl
+# catalog-version 0.6a
 Name:		texlive-mlist
 Version:	0.6a
 Release:	1
@@ -46,6 +52,7 @@ arguments without hard-coding the symbols in the document.
 #- source
 %doc %{_texmfdistdir}/source/latex/mlist/mlist.dtx
 %doc %{_texmfdistdir}/source/latex/mlist/mlist.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ arguments without hard-coding the symbols in the document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
