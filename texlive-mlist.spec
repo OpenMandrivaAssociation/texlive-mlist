@@ -6,7 +6,7 @@
 # catalog-version 0.6a
 Name:		texlive-mlist
 Version:	0.6a
-Release:	9
+Release:	10
 Summary:	Logical markup for lists
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mlist
