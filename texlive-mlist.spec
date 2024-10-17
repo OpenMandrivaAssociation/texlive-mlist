@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Logical markup for lists
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mlist
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mlist
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mlist.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mlist.doc.r%{version}.tar.xz
